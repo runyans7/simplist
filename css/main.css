@@ -1,0 +1,143 @@
+* {
+/*  outline: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  min-height: 700px;
+}
+
+#main-header {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #EBEBEB;
+  padding-top: 40px;
+  height: 250px;
+  font-size: 28px;
+}
+
+#logo {
+  color: #058AFF;
+}
+
+#main-header img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#main-header p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#enter-item {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#enter-item button {
+  display: block;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 25px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: bold;
+  background-color: #C2C2C2;
+}
+
+#enter-item button:hover {
+  background-color: #616161;
+}
+
+#enter-item button:active {
+  background-color: #058AFF;
+}
+
+#enter-item input {
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px dashed;
+}
+
+::-webkit-input-placeholder {
+   text-align:center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align:center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align:center;  
+}
+
+:-ms-input-placeholder {  
+   text-align:center; 
+}
+
+#item-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#item-list p {
+  margin-top: 10px;
+  height: 25px;
+  line-height: 25px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+}
+
+.active-item {
+  background-color: #4C6680;
+  color: white;
+}
+
+.inactive-item {
+  background-color: #66FFFF;
+  opacity: 0.3;
+}
+
+#item-list span {
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;;
+  height: 25px;
+  width: 25px;
+}
+
+.delete {
+  background: url('../images/x-mark.png');
+  float: left;
+  margin-left: 5px;
+}
+
+.inactive {
+  background-color: #058AFF;
+}
+
+.mark-off {
+  background: url('../images/checkmark.png');
+  float: right;
+  margin-right: 5px;
+}
