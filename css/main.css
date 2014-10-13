@@ -116,6 +116,7 @@ p {
 .inactive-item {
   background-color: #66FFFF;
   opacity: 0.3;
+  text-decoration: line-through;
 }
 
 #item-list span {
